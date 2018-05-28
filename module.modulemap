@@ -1,0 +1,4 @@
+module p7zip [system] {
+  header "shim.h"
+  export *
+}
