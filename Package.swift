@@ -10,4 +10,13 @@ let package = Package(
         .brew(["p7zip"]),
         .apt(["p7zip"])
     ]
+    products: [
+        .library(
+            name: "P7zip",
+            targets: ["P7zip"]
+        )
+    ],
+    targets: [
+        .target(name: "P7zip")
+    ]
 )
