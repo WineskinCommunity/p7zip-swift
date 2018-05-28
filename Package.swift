@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "p7zip",
+    name: "P7zip",
     pkgConfig: "p7zip",
     providers: [
         .brew(["p7zip"]),
