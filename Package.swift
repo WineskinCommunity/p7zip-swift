@@ -9,7 +9,7 @@ let package = Package(
     providers: [
         .brew(["p7zip"]),
         .apt(["p7zip"])
-    ]
+    ],
     products: [
         .library(
             name: "P7zip",
